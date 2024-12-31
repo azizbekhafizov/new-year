@@ -1,69 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #001f3f, #0074D9);
-    color: #fff;
-    text-align: center;
-    overflow: hidden;
-    height: 100vh;
-  }
-  
-  .container {
-    position: relative;
-    top: 30%;
-    z-index: 2;
-  }
-  
-  h1 {
-    font-size: 3rem;
-    animation: glow 2s infinite alternate;
-  }
-  
-  p {
-    font-size: 1.5rem;
-    margin-top: 10px;
-  }
-  
-  button {
-    background: #FF4136;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 20px;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background: #FF851B;
-  }
-  
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 5px #FF851B, 0 0 10px #FF4136, 0 0 20px #FF4136;
-    }
-    to {
-      text-shadow: 0 0 20px #FF851B, 0 0 30px #FF4136, 0 0 40px #FF4136;
-    }
-  }
-  
-  /* Snow Canvas Styling */
-  #snow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    pointer-events: none;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom, #001f3f, #0074d9);
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+}
 
-  
+.container {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 3rem;
+  animation: glow 2s infinite alternate;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+button {
+  background: #ff4136;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #ff851b;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #ff851b, 0 0 10px #ff4136, 0 0 20px #ff4136;
+  }
+  to {
+    text-shadow: 0 0 20px #ff851b, 0 0 30px #ff4136, 0 0 40px #ff4136;
+  }
+}
+
+/* Snow Canvas Styling */
+#snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
